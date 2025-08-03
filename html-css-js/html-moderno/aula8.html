@@ -1,0 +1,44 @@
+<!-- 
+
+# Inspecionando o DOM
+
+Como inspecionar o DOM de uma página HTML?
+## Inspecionando o DOM
+Para inspecionar o DOM de uma página HTML, você pode usar as ferramentas de desenvolvedor do seu navegador. Aqui estão os passos básicos:
+
+1. Abra a página HTML no seu navegador.
+2. Clique com o botão direito do mouse em qualquer lugar da página e selecione "Inspecionar" ou "Inspecionar Elemento".
+3. As ferramentas de desenvolvedor serão abertas, geralmente na parte inferior ou lateral da janela do navegador.
+4. Navegue até a aba "Elements" (ou "Elementos") para ver a estrutura do DOM.
+5. Você pode passar o mouse sobre os elementos no DOM para ver suas correspondências na página.
+6. Clique em um elemento no DOM para ver suas propriedades e estilos no painel de estilos.
+
+Esses passos podem variar um pouco dependendo do navegador que você está usando, mas a maioria dos navegadores modernos possui ferramentas de desenvolvedor semelhantes.
+
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspecionando o DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Inspecionando o DOM</h1>
+    <p>Esta é uma página de exemplo para demonstrar como inspecionar o DOM.</p>
+    <div class="container">
+        <p>Você pode clicar com o botão direito e selecionar "Inspecionar" para ver o DOM desta página.</p>
+        <button id="alertButton">Clique aqui para ver um alerta</button>
+    </div>
+    <script>
+        document.getElementById('alertButton').addEventListener('click', function() {
+            alert('Você clicou no botão!');
+        });
+    </script>
+    <footer>
+        <p>&copy; 2023 Inspecionando o DOM</p>
+    </footer>  
+</body>
+</html>
