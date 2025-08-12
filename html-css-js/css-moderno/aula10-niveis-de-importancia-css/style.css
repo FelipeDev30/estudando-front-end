@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.teste > h2.title {
+    color: darkred;
+    margin: 10px;
+}
+
+h2.title {
+    color: darkblue !important;
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
