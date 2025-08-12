@@ -1,0 +1,98 @@
+/* 
+
+# O que é o Chrome DevTools?
+
+O Chrome DevTools é um conjunto de ferramentas de desenvolvimento integrado ao Google Chrome que permite depurar, otimizar e analisar aplicações web. Com ele, é possível inspecionar elementos da página, monitorar requisições de rede, analisar o desempenho da aplicação e muito mais.
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.cb-principal {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.cb-menu {
+    margin-top: 20px;
+}
+
+.cb-lista-menu {
+    display: flex;
+
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.cb-item-menu {
+    margin: 0 10px;
+}
+
+.cb-link {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cb-link:hover {
+    background-color: #0056b3;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.rodape {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.cb-artigo-images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.cb-artigo-images img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
