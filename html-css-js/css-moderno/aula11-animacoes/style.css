@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@keyframes anim1 {
+    from {
+        background-color: rgb(90, 192, 90);
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+.teste {
+    width: 400px;
+    height: 400px;
+    background-color: lightgreen;
+    animation-name: anim1;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
