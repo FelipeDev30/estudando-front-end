@@ -1,0 +1,26 @@
+:root {
+    --cor-principal: #3498db;
+    --cor-secundaria: #000502c8;
+    --cor-fundo: #ecf0f1;
+    --cor-texto: #2c3e50;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+h1 {
+    color: var(--cor-principal);
+}
+
+p {
+    color: var(--cor-secundaria);
+}
+
+.section {
+    padding: 20px;
+    border: 2px solid var(--cor-principal);
+    border-radius: 5px;
+    background-color: #fff;
+}
