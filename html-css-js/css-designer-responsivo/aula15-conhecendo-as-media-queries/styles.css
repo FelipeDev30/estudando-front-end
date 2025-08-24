@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        background-color: lightgreen;
+    }
+}
