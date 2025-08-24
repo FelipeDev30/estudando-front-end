@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wraper .gallery-item {
+    width: 33.3%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.divider {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #cccccc86;
+    margin: 20px 0;
+}
+
+@media (max-width: 1024px) {
+    .wraper .gallery-item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wraper .gallery-item {
+        width: 100%;
+    }
+}
+
