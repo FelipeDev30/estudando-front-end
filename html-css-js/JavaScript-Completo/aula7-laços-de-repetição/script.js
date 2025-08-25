@@ -4,7 +4,32 @@ O que são laços de repetição?
 
 Os laços de repetição são estruturas de controle que permitem executar um bloco de código várias vezes, enquanto uma condição for verdadeira. Em JavaScript, existem diferentes tipos de laços, como o `for`, `while` e `do...while`.
 
+exemplos:
 
+1. Laço `for`:
+```javascript
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+```
+
+2. Laço `while`:
+```javascript
+let n = 0;
+while (n < 5) {
+    console.log(n);
+    n++;
+}
+```
+
+3. Laço `do...while`:
+```javascript
+let m = 0;
+do {
+    console.log(m);
+    m++;
+} while (m < 5);
+```
 */
 
 function mediaNotas(n1, n2, n3, media) {
