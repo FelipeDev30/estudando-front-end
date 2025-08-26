@@ -46,3 +46,13 @@ button {
 button:hover {
     background-color: #218838;
 }
+
+#resultado {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
