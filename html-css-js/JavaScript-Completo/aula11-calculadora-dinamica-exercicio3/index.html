@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora Dinâmica</h1>
+    <form name="formulario">
+        <input type="text" name="campo1" placeholder="Digite um número">
+        <input type="text" name="campo2" placeholder="Digite outro número">
+        <select name="operacao">
+            <option value="somar">Somar</option>
+            <option value="subtrair">Subtrair</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+            <option value="exponenciar">Exponenciar</option>
+            <option value="raiz">Raiz</option>
+            <option value="porcentagem">Porcentagem</option>
+            <option value="modulo">Módulo</option>
+        </select>
+        <input type="button" value="Calcular" onclick="calcular()">
+        <input type="text" name="resultado" placeholder="Resultado" readonly>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
