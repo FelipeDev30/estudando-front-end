@@ -34,6 +34,7 @@ label {
 }
 
 select {
+    width: 264px;
     font-size: 1.1rem;
     padding: 0.5rem;
     border: 2px solid #ccc;
@@ -42,10 +43,20 @@ select {
 }
 
 input[type="button"] {
+    width: 264px;
     font-size: 1.1rem;
     padding: 0.5rem;
     border: 2px solid #ccc;
     border-radius: 5px;
     background-color: rgb(94, 226, 105);
     cursor: pointer;
+}
+
+input[type="text"] {
+    width: 264px;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(160, 159, 159, 0.233);
 }
