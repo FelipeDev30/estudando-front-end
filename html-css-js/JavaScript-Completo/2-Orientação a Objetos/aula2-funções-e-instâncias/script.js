@@ -14,8 +14,17 @@ class Pessoa {
     }
 }
 
-let pessoa1 = new Pessoa(prompt("Digite o nome: "), Number(prompt("Digite a idade: ")), prompt("Digite a profissão: "));
-let pessoa2 = new Pessoa(prompt("Digite o nome: "), Number(prompt("Digite a idade: ")), prompt("Digite a profissão: "));
+function criarPessoa() {
+    return new Pessoa(prompt("Digite o nome: "), Number(prompt("Digite a idade: ")), prompt("Digite a profissão: "));
+}
 
-alert(`Nome: ${pessoa1.nome}, Idade: ${pessoa1.idade}, Profissão: ${pessoa1.profissao}`);
-alert(`Nome: ${pessoa2.nome}, Idade: ${pessoa2.idade}, Profissão: ${pessoa2.profissao}`);
+function exibirInformacoes(pessoa) {
+    alert(`Nome: ${pessoa.nome}, Idade: ${pessoa.idade}, Profissão: ${pessoa.profissao}`);
+}
+
+let pessoas = [];
+pessoas.push(criarPessoa());
+pessoas.push(criarPessoa());
+
+exibirInformacoes(pessoas[0]);
+exibirInformacoes(pessoas[1]);
