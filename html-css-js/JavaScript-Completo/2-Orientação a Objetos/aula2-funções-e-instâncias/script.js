@@ -6,16 +6,20 @@ As instâncias em JavaScript são objetos criados a partir de uma função const
 
 */
 
-class Pessoa {
-    constructor(nome, idade, profissao) {
-        this.nome = nome;
-        this.idade = idade;
-        this.profissao = profissao;
-    }
+// ...existing code...
+function criarPessoa(nome, idade, profissao) {
+    return {
+        nome: nome,
+        idade: idade,
+        profissao: profissao
+    };
 }
 
-function criarPessoa() {
-    return new Pessoa(prompt("Digite o nome: "), Number(prompt("Digite a idade: ")), prompt("Digite a profissão: "));
+function criarPessoaPrompt() {
+    const nome = prompt("Digite o nome: ");
+    const idade = Number(prompt("Digite a idade: "));
+    const profissao = prompt("Digite a profissão: ");
+    return criarPessoa(nome, idade, profissao);
 }
 
 function exibirInformacoes(pessoa) {
@@ -23,8 +27,9 @@ function exibirInformacoes(pessoa) {
 }
 
 let pessoas = [];
-pessoas.push(criarPessoa());
-pessoas.push(criarPessoa());
+pessoas.push(criarPessoaPrompt());
+pessoas.push(criarPessoaPrompt());
 
 exibirInformacoes(pessoas[0]);
 exibirInformacoes(pessoas[1]);
+// ...existing code...
