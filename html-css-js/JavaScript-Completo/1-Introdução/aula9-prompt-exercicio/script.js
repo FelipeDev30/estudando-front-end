@@ -1,3 +1,10 @@
+/* 
+
+# Calculadora de IMC com Prompt e Alert
+
+Este script calcula o Índice de Massa Corporal (IMC) de uma pessoa com base na altura e peso fornecidos pelo usuário através de prompts. O resultado do IMC e sua classificação são exibidos usando alertas.
+
+*/
 function calcularIMC(altura, peso) {
     let imc = peso / (altura * altura);
     return imc;

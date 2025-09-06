@@ -1,3 +1,11 @@
+/* 
+
+# Mais sobre animações
+
+As animações em JavaScript podem ser criadas manipulando as propriedades CSS dos elementos. Além disso, você pode usar a função `requestAnimationFrame` para criar animações mais suaves e eficientes.
+
+*/
+
 const spans = document.querySelectorAll(".conteudo span");
 
 spans.forEach(span => {

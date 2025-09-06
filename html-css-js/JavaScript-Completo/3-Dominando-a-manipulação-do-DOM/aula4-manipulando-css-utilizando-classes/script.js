@@ -1,3 +1,9 @@
+/* 
+# Manipulando CSS utilizando Classes
+
+Para manipular o CSS de elementos HTML utilizando JavaScript, você pode usar a propriedade `style` de cada elemento. A propriedade `style` permite acessar e modificar os estilos CSS diretamente no elemento.
+
+*/
 let elementos = document.getElementsByClassName("box");
 for (let i = 0; i < elementos.length; i++) {
     elementos[i].style.backgroundColor = "red";

@@ -1,3 +1,11 @@
+/* 
+
+# Calculadora Dinâmica com Formulário
+
+Este script implementa uma calculadora dinâmica que realiza várias operações matemáticas (adição, subtração, multiplicação, divisão, exponenciação, raiz, porcentagem e módulo) com base nos valores fornecidos pelo usuário através de um formulário. O resultado é exibido no próprio formulário.
+
+*/
+
 form = document.forms["formulario"];
 form.addEventListener("submit", function(event) {
     event.preventDefault();

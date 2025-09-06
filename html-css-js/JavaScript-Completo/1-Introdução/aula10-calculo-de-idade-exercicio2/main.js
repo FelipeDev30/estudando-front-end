@@ -1,3 +1,10 @@
+/* 
+
+# Cálculo de Idade com Formulário
+
+Este script calcula a idade de uma pessoa com base no ano de nascimento fornecido através de um formulário. O resultado é exibido na página.
+
+*/
 form = document.getElementById('form');
 resultado = document.getElementById('resultado');
 

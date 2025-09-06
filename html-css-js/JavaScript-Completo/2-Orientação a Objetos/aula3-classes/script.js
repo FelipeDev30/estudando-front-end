@@ -1,3 +1,9 @@
+/* 
+
+# Orientação a Objetos em JavaScript Classes
+As classes em JavaScript são uma forma de criar objetos e definir suas propriedades e métodos de maneira mais estruturada. Elas foram introduzidas no ECMAScript 6 (ES6) e fornecem uma sintaxe mais clara e concisa para a criação de objetos em comparação com as funções construtoras tradicionais.
+
+*/
 class Pessoa {
     constructor(nome, idade, profissao) {
         this.nome = nome;
