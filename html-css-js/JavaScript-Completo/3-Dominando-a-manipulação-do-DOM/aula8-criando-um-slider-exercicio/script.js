@@ -13,7 +13,6 @@ images.forEach((item, index) => {
         //Reset das bullets
         document.querySelectorAll('.bullet-single')[lastIndex].classList.remove('active-bullet');
         document.querySelectorAll('.bullet-single')[index].classList.add('active-bullet');
-
         lastIndex = index;
 
     })
