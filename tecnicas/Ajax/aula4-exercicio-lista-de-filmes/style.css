@@ -2,12 +2,14 @@ h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
 }
+
 .container {
     max-width: 600px;
     margin: auto;
@@ -46,8 +48,38 @@ hr {
     font-size: 14px;
     color: #666;
 }
-h2 {
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
     margin-top: 0;
     cursor: pointer;
     color: #333;
+}
+
+.container h2:hover {
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
 }
