@@ -95,11 +95,11 @@ function exibirFilmes(filmes) {
             <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}" alt="${filme.title}" />
             <h2 class="title">${filme.title}</h2>
             <p>Nota: ${filme.vote_average}</p>
-            <div class="description" style="display:none">${filme.overview}</div>
+            <div class="description" style="display:none;">${filme.overview}</div>
             <a href="detalhes.html?id=${filme.id}">Ver detalhes</a>
             <a href="index.html">Voltar</a>
             <a href="favoritos.html">Ver favoritos</a>
-            <hr />
+            <hr/>
         `;
         container.appendChild(card);
     });
@@ -120,3 +120,5 @@ function adicionarEventos() {
 }
 
 carregarFilmes();
+
+
